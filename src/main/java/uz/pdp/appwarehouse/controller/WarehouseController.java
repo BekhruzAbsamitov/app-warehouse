@@ -9,6 +9,8 @@ import uz.pdp.appwarehouse.service.WarehouseService;
 import java.util.List;
 
 @RestController
+@RequestMapping("/warehouse")
+
 public class WarehouseController {
 
     WarehouseService warehouseService;

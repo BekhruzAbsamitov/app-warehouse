@@ -12,7 +12,7 @@ import uz.pdp.appwarehouse.service.OutputService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/input")
+@RequestMapping("/output")
 public class OutputController {
 
     OutputService outputService;

@@ -9,7 +9,7 @@ import uz.pdp.appwarehouse.service.InputProductService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/inputController")
+@RequestMapping("/inputProduct")
 public class InputProductController {
 
     InputProductService inputProductService;

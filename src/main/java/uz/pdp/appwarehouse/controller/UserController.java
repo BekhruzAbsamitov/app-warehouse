@@ -9,6 +9,7 @@ import uz.pdp.appwarehouse.service.UserService;
 import java.util.List;
 
 @RestController
+@RequestMapping("/user")
 public class UserController {
 
     UserService userService;
